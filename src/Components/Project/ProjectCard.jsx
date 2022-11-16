@@ -10,7 +10,6 @@ const ProjectCard = ({ name, img, git, link, stacks, about }) => {
         {name}
       </p>
       <div className={styles.stacksDiv2}>{stacks.map((stack) => stack)}</div>
-
       <div className={styles.linkCont}>
         <a href={git} rel="noreferrer" target="_blank">
           <div className={styles.linkDiv}>
@@ -27,8 +26,7 @@ const ProjectCard = ({ name, img, git, link, stacks, about }) => {
           </div>
         </a>
       </div>
-
-      <div className={styles.projInfo}>
+  <div className={styles.projInfo}>
         <p>{about}</p>
       </div>
     </div>

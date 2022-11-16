@@ -8,14 +8,12 @@
     background-color: rgb(28, 176, 212);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    z-index: 100;
   }
-  
   .navLink {
     font-size: 18px;
     font-weight: 700;
     color: var(--primary-text-color) !important;
     cursor: pointer;
   }
-  
   .logo{
     height: 50px;
     width: 50px;

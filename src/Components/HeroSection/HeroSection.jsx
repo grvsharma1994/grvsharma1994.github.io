@@ -23,8 +23,7 @@ const HeroSection = () => {
           </Button>
         </a>
       </div>
-
-      <div className={styles.photoCont}>
+   <div className={styles.photoCont}>
         <img src="/gaurav photo.png" alt="gauravimg" className={styles.heroImg} />
       </div>
       <div className={styles.socialCont}>
@@ -48,5 +47,4 @@ const HeroSection = () => {
     </div>
   );
 };
-
 export default HeroSection;

@@ -18,7 +18,6 @@ import NavLogo from "./NavLogo";
 import styles from "./Navbar.module.css";
 import { useEffect } from "react";
 import resume from "../../assets/Gaurav_Sharma_Resume.pdf";
-
 function NavLinks() {
   const [size] = React.useState("full");
   let [width, setWidth] = useState();
@@ -30,8 +29,7 @@ function NavLinks() {
   const handleClick = () => {
     onOpen();
   };
-
-  window.addEventListener("resize", () => {
+window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
   });
   return width > 768 ? (
@@ -87,7 +85,6 @@ function NavLinks() {
       <Button onClick={() => handleClick(size)} key={size} m={4}>
         {<HamburgerIcon />}
       </Button>
-
       <Drawer placement="top" onClose={onClose} isOpen={isOpen} size={size}>
         <DrawerOverlay />
         <DrawerContent className={styles.menu__overlay}>
@@ -178,5 +175,4 @@ function NavLinks() {
     </>
   );
 }
-
 export default NavLinks;

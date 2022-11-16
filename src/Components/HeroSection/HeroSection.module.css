@@ -1,4 +1,4 @@
-.rootCont {
+   .rootCont {
     display: grid;
     grid-template-areas:
       "nameCont photoCont"
@@ -16,8 +16,7 @@
   a {
     text-decoration: none;
   }
-
-  .nameCont {
+.nameCont {
     grid-area: nameCont;
     width: 100%;
     font-size: 50px;
@@ -72,9 +71,7 @@
   .github:hover{
     color: #6e5494;
   }
-
-
-  @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .rootCont {
       grid-template-areas:
         "nameCont nameCont "

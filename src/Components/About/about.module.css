@@ -1,14 +1,12 @@
 .about{
     color: black;
 }
-
 .aboutName{
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
     padding-top: 5rem;
 }
-
 .aboutsection{
     display: flex;
     width: 80%;
@@ -16,7 +14,6 @@
     gap: 20px;
     margin-top: 30px;
 }
-
 .details{
     font-size: x-large;
     font-weight: bold;
@@ -24,15 +21,12 @@
     padding: 20px;
     border: 4px dashed black;
 }
-
 .imagediv{
     width: 50%;
 }
-
 .aboutimg{
     border-radius: 10px;
 }
-
 @media only screen and (max-width: 1024px){
     .aboutName{
       margin-top: 150px;
