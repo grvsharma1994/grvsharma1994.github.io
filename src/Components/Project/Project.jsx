@@ -10,6 +10,24 @@ import { DiNodejsSmall } from "react-icons/di";
 import ProjectCard from "./ProjectCard";
 const projects = [
     {
+        name: "Organic Market",
+        img: "/Organicmarket.png",
+        link: "https://organicmarket.netlify.app/",
+        git: "https://github.com/Naquee/massive-things-7112",
+        about:
+          "Organic Market is India's largest online Food and Grocery Store.From here User can buy Fresh Fruits,Vegetables,Rice,Dals,Personal care Products,Eggs,Meat,Fishes at low Prices.",
+        stacks: [
+        <SiJavascript className={styles.stackIcon} />,
+          <SiHtml5 className={styles.stackIcon} />,
+          <SiCss3 className={styles.stackIcon} />,
+          <GrReactjs className={styles.stackIcon} />,
+          <SiMongodb  className={styles.stackIcon} />,
+          <DiNodejsSmall className={styles.stackIcon} />,
+          <SiExpress className={styles.stackIcon} />,
+          < SiChakraui  className={styles.stackIcon} />
+        ],
+      },
+      {
         name: "Boat-lifestyle.com clone",
         img: "/Boat-lifestyle.png",
         link: "https://candid-paletas-feef7b.netlify.app",
@@ -20,6 +38,21 @@ const projects = [
         <SiJavascript className={styles.stackIcon} />,
           <SiHtml5 className={styles.stackIcon} />,
           <SiCss3 className={styles.stackIcon} />,
+        ],
+      },
+      {
+        name: "Digital India",
+        img: "/DigitalIndia.png",
+        link: "https://frontend-nagarajumedida.vercel.app/",
+        git: "https://github.com/Nagarajumedida/abstracted-flowers-3228",
+        about:
+          "The name of the website is DIGITAL INDIA.It's an e-commerce website.Here,user can shop for any kind of digital accessory.",
+        stacks: [
+        <SiJavascript className={styles.stackIcon} />,
+          <SiHtml5 className={styles.stackIcon} />,
+          <SiCss3 className={styles.stackIcon} />,
+          <GrReactjs className={styles.stackIcon} />,
+          < SiChakraui  className={styles.stackIcon} />
         ],
       },
   

@@ -12,8 +12,8 @@ function App() {
       <HeroSection />
       <About />
       <Skills />
+     <Project />
       <Statistics />
-      <Project />
       <Contact />
     </div>
   );
